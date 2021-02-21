@@ -1,2 +1,2 @@
 # twitchchatplays
-A twitch bot that let your chatters play the game
+A bot that let your twitch chat play the game
