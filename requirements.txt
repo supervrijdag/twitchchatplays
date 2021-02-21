@@ -1,0 +1,3 @@
+socket
+pyautogui
+threading
