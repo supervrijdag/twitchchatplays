@@ -1,7 +1,7 @@
 # twitchchatplays
 A twitch bot that let your chatters play the game
 
-- Compatible with Python **3+** 🎉.
+- Compatible with Python **3+** 🎉
 
 
 ## Installation for Windows
