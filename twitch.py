@@ -6,7 +6,6 @@ PORT = 6667
 PASS = "" # You oauth key https://twitchapps.com/tmi/
 BOT = " Bot"
 CHANNEL = "" # Your channel name
-OWNER = "" # Your channel name again
 message = ""
 
 irc = socket.socket()
@@ -93,6 +92,7 @@ def twitch():
         except:
             message = ""
         return message
+
     def Console (line):
         if "PRIVMSG" in line:
             return False
@@ -121,6 +121,8 @@ def twitch():
                 user = getUser(line)
                 message = getMessage(line)
                 print(user + " : " + message)
+
+ 
 if __name__ =='__main__':
     t1 = threading.Thread(target = twitch)
     t1. start()
